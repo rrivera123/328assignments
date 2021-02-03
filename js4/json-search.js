@@ -1,3 +1,20 @@
+let body = document.getElementsByTagName("body");
+let button = document.getElementById("submitButton");
+button.onclick = search;
+
+function search()
+{
+    let name = document.getElementById("name").value;
+    // if(name)
+    // {
+    //
+    // }
+
+    //For testing purposes
+    console.log(name);
+}
+
+
 let people = {
     "People" : [
         {"Name" : "Jimmy Hendricks",
@@ -43,6 +60,5 @@ let people = {
             "Father" : "Themistocles Merovech",
             "Mother" : "Amara Floros"
         }
-
-]}
+]};
 
